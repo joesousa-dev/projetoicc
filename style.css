@@ -1,0 +1,161 @@
+	body{
+	background-color: white;
+	font-family: sans-serif;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1310px;
+	padding-top: 1px;
+	padding-bottom:30px;
+	}
+
+	h2{
+		background-color: blue;
+		color: white;
+		}
+
+	h3{
+		color: blue;
+		border-bottom: 1px solid #333333;
+		border-bottom: double;
+		text-align: left;
+	}
+
+	h4{
+		color: white;
+	}
+
+	h5{
+		color: blue;
+	}
+
+	h1{
+	margin: 0;
+  padding: 20px 0px;
+  font-family: sans-serif;
+  color: blue;
+  text-shadow: 3px 3px 1px black;	
+	font-size: 60px;
+  text-align: center;
+  transition: 0.5s;
+	opacity: 0.7;
+	}
+	
+
+	p{
+		text-align: justify;
+		font-family: sans-serif;
+		font-size:14px;
+	}
+
+	a{
+			text-decoration: none;
+	    background-color: none;
+	    color: blue;
+	    border: 3px black;
+	    margin-top: 1px;
+	    padding:2px 4px;
+	}
+	
+	/*Link não visitado */
+	a:link {
+	    color: white;
+	    text-decoration: none;
+	}
+
+	/*Link já visitado*/
+	a:visited {
+	   color: blue;
+	   text-decoration: none;
+	}
+
+	/*Quando o mouse passa por cima*/
+	a:hover {
+	   color: yellow;
+	   text-decoration: none;
+	}
+
+	/*Link ativo/selecionado*/
+	a:active {
+	   color: yellow;
+	   text-decoration: none;
+	}
+   
+ 	p{
+ 	font-size: 14px;
+ 	line-height: 2;
+ 	letter-spacing: 1px;
+	}
+
+  table, th, td
+  {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  table
+  {
+  border: 5px solid black;
+	border-style: double;
+  width: 100%;
+  }
+
+  th, td
+  {
+    padding: 5px 10px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  th
+  {
+    background-color: rgb(21, 4, 98);
+    color: white;
+  }
+  
+  ul.b {
+ 		list-style-type: disc;
+	}
+
+	ul.c {
+    list-style-position: outside;
+  	border-top-left-radius: 1px;
+  }    
+
+	ul {
+  background: #3399ff;
+  padding: 20px;
+	}
+
+	ul li {
+  background: #cce5ff;
+  margin: 5px;
+  font-size: 14px;
+ 	line-height: 2;
+ 	letter-spacing: 1px;
+	}
+
+	img{
+	background-color: transparent;
+	position: sticky;
+	text-align: center
+	}	
+
+	figure{
+		font-size: smaller;
+	} 
+
+  footer {
+  border-color: dodgerblue;
+	border-style: solid;
+	border-width: 5px;	
+  position: relative;
+  font-family: serif;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  background-color: blue;
+  text-align: left;
+	}
